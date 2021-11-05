@@ -31,3 +31,23 @@ html {
   text-align: center;
   text-decoration: none;
 }
+
+@media screen and (min-width: 300px) {
+  #header {
+    text-align: center;
+  }
+  #footer {
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+  }
+  #footer p {
+    margin-bottom: 12px;
+    margin-right: 8px;
+    text-align: center;
+
+  }
+  #navigation {
+    margin-top: 32px;
+  }
+}
