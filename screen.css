@@ -51,3 +51,12 @@ html {
     margin-top: 32px;
   }
 }
+
+@media screen and (min-width: 450) {
+  #footer p {
+    margin: 48px;
+  }
+  #navigation {
+    margin-right: 12px;
+  }
+}
