@@ -6,55 +6,55 @@ html {
 #content p {
   background-color: red;
   display: block;
-  line-height: 22px;
-  margin: 3px;
+  line-height: 1.22222em; /* 22/18 = 1.22222*/
+  margin: 0.13636363636em; /* 3/22 = 0.13636363636*/
 }
 
 #footer p {
   background-color: green;
   display: block;
-  font-size: 16px;
-  line-height: 16px;
-  margin-top: 32px;
-  margin-bottom: 4px;
-  padding: 2px;
+  font-size: 0.88888888888em; /* 16/18 = 0.88888888888*/
+  line-height: 1em; /* 16/16 = 1*/
+  margin-top: 2em; /* 32/16 = 2*/
+  margin-bottom: 0.25em; /* 4/16 = 0.25*/
+  padding: 0.125em; /* 2/16 = 0.125*/
 }
 
 #navigation a {
   background-color: #333;
   color: white;
   display: block;
-  font-size: 24px;
+  font-size: 1.33333333333em; /* 24/16 = 1.33333333333*/
   line-height: 0;
-  margin-bottom: 12px;
-  padding: 24px;
+  margin-bottom: 0.5em; /* 12/24 = 0.5*/
+  padding: 1em; /* 24/24 = 1*/
   text-align: center;
   text-decoration: none;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 18.75em) { /* 300/16 = 18.75*/
   #header {
     text-align: center;
   }
   #footer {
     display: flex;
     flex-direction: row;
-    margin: 12px;
+    margin: 0.66666666666em; /* 12/18 = 0.66666666666*/
   }
   #footer p {
-    margin-bottom: 12px;
-    margin-right: 8px;
+    margin-bottom: 0.75em; /* 12/16 0.75*/
+    margin-right: 0.66666666666em; /* 8/12 = 0.66666666666*/
     text-align: center;
 
   }
   #navigation {
-    margin-top: 32px;
+    margin-top: 1.77777777778em; /* 32/18 = 1.77777777778*/
   }
 }
 
-@media screen and (min-width: 450) {
+@media screen and (min-width: 450px) {
   #footer p {
-    margin: 48px;
+    margin: 80px;
   }
   #navigation {
     margin-right: 12px;
