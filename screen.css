@@ -20,6 +20,18 @@ html {
   margin: 0.13636363636em; /* 3/22 = 0.13636363636*/
 }
 
+figure {
+  position: relative;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+figcaption {
+  background-color: blue;
+  position: relative;
+  width: 100%;
+}
 #footer p {
   background-color: green;
   display: block;
