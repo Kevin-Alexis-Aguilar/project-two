@@ -9,15 +9,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html {
-  font-size: 18px;
-  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 #content p {
   background-color: red;
-  display: block;
-  line-height: 1.22222em; /* 22/18 = 1.22222*/
-  margin: 0.13636363636em; /* 3/22 = 0.13636363636*/
+  margin: 3px; /* 3/16 = 0.1875*/
 }
 
 figure {
@@ -35,11 +34,9 @@ figcaption {
 #footer p {
   background-color: green;
   display: block;
-  font-size: 0.88888888888em; /* 16/18 = 0.88888888888*/
-  line-height: 1em; /* 16/16 = 1*/
-  margin-top: 2em; /* 32/16 = 2*/
-  margin-bottom: 0.25em; /* 4/16 = 0.25*/
-  padding: 0.125em; /* 2/16 = 0.125*/
+  margin-top: 32px; /* 32/16 = 2*/
+  margin-bottom: 4px; /* 4/16 = 0.25*/
+  padding: 2px; /* 2/16 = 0.125*/
 }
 
 #navigation a {
@@ -50,27 +47,25 @@ figcaption {
   line-height: 0;
   margin-bottom: 0.5em; /* 12/24 = 0.5*/
   padding: 1em; /* 24/24 = 1*/
-  text-align: center;
   text-decoration: none;
 }
 
-@media screen and (min-width: 18.75em) { /* 300/16 = 18.75*/
+@media screen and (min-width: 300px) { /* 300/16 = 18.75*/
   #header {
     text-align: center;
   }
   #footer {
     display: flex;
     flex-direction: row;
-    margin: 0.66666666666em; /* 12/18 = 0.66666666666*/
+    margin: 12px; /* 12/18 = 0.66666666666*/
   }
   #footer p {
-    margin-bottom: 0.75em; /* 12/16 0.75*/
-    margin-right: 0.66666666666em; /* 8/12 = 0.66666666666*/
-    text-align: center;
+    margin-bottom: 12px; /* 12/16 0.75*/
+    margin-right: 8px; /* 8/12 = 0.66666666666*/
 
   }
   #navigation {
-    margin-top: 1.77777777778em; /* 32/18 = 1.77777777778*/
+    margin-top: 32px; /* 32/18 = 1.77777777778*/
   }
 }
 
