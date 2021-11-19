@@ -16,10 +16,11 @@ html {
 }
 
 #content p {
-  background-color: red;
   margin-bottom: 4px;
 }
-
+section {
+  margin-bottom: 8px;
+}
 figure {
   position: relative;
 }
@@ -29,6 +30,7 @@ img {
 }
 figcaption {
   background-color: blue;
+  margin-bottom: 8px;
   position: relative;
   width: 100%;
 }
@@ -50,6 +52,10 @@ figcaption {
   text-decoration: none;
 }
 
+p {
+  margin-bottom: 8px;
+}
+
 @media screen and (min-width: 300px) { /* 300/16 = 18.75*/
   #header {
     text-align: center;
@@ -57,6 +63,7 @@ figcaption {
   #footer {
     display: flex;
     flex-direction: row;
+
   }
   #footer p {
     margin-bottom: 11px; /* 12/16 0.75*/
@@ -68,11 +75,10 @@ figcaption {
   }
 }
 
-@media screen and (min-width: 450px) {
-  #footer p {
-    margin: 80px;
+@media screen and (min-width: 600px) {
+  #education {
+    position: relative;
+    left: 20px;
   }
-  #navigation {
-    margin-right: 12px;
-  }
+
 }
