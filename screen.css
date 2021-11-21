@@ -61,22 +61,14 @@ h3 {
 }
 
 p {
-  margin-bottom: 8px;
+  margin-bottom: 0.5em; /*8/16=0.5*/
 }
 
 @media screen and (min-width: 18.75em) { /* 300/16 = 18.75*/
-  #header {
-    text-align: center;
-  }
-  #footer {
+  #navigation {
     display: flex;
     flex-direction: row;
-  }
-  #footer p {
-    margin-right: 0.5em; /* 8/16 = 0.5*/
-  }
-  #navigation {
-    margin-top: 1em; /*16/16=1*/
+    justify-content: space-evenly;
   }
 }
 @media screen and (min-width: 26.25em) { /*420/16=26.25*/
