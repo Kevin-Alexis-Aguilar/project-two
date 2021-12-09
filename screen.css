@@ -56,7 +56,8 @@ h3 {
   background-color: #333;
   color: white;
   display: block;
-  font-size: 24px; /* 24/16 = 1.33333333333*/
+  font-family: Helvetica, serif, sans-serif;
+  font-size: 20px; /* 24/16 = 1.33333333333*/
   line-height: 0;
   margin-bottom: 12px; /* 12/24 = 0.5*/
   padding: 24px; /* 24/24 = 1*/
