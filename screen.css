@@ -12,10 +12,13 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px; /*16/16=1*/
   line-height: 20px; /*20/16=1.25*/
-  margin: 4px; /*4/16=0.25*/
+  margin: 8px; /*4/16=0.25*/
 }
 section {
   margin-bottom: 8px; /*8/16=0.5*/
+}
+article {
+  margin-bottom: 8px;
 }
 figure {
   position: relative;
