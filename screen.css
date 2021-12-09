@@ -10,12 +10,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em; /*16/16=1*/
-  line-height: 1.25em; /*20/16=1.25*/
-  margin: 0.25em; /*4/16=0.25*/
+  font-size: 16px; /*16/16=1*/
+  line-height: 20px; /*20/16=1.25*/
+  margin: 4px; /*4/16=0.25*/
 }
 section {
-  margin-bottom: 0.5em; /*8/16=0.5*/
+  margin-bottom: 8px; /*8/16=0.5*/
 }
 figure {
   position: relative;
@@ -25,7 +25,7 @@ img {
   max-width: 100%;
 }
 figcaption {
-  margin-bottom: 0.5em; /*8/16=0.5*/
+  margin-bottom: 8px; /*8/16=0.5*/
   position: relative;
   width: 100%;
 }
@@ -40,8 +40,8 @@ h2 {
 h1,
 h2,
 h3 {
-  margin-top: 0.5em; /*8/16=0.5*/
-  margin-bottom: 0.5em; /*8/16=0.5*/
+  margin-top: 8px; /*8/16=0.5*/
+  margin-bottom: 8px; /*8/16=0.5*/
 }
 
 #footer p {
@@ -55,23 +55,23 @@ h3 {
   display: block;
   font-size: 1.33333333333em; /* 24/16 = 1.33333333333*/
   line-height: 0;
-  margin-bottom: 0.5em; /* 12/24 = 0.5*/
-  padding: 1em; /* 24/24 = 1*/
+  margin-bottom: 12px; /* 12/24 = 0.5*/
+  padding: 24px; /* 24/24 = 1*/
   text-decoration: none;
 }
 
 p {
-  margin-bottom: 0.5em; /*8/16=0.5*/
+  margin-bottom: 8px; /*8/16=0.5*/
 }
 
-@media screen and (min-width: 18.75em) { /* 300/16 = 18.75*/
+@media screen and (min-width: 300px) { /* 300/16 = 18.75*/
   #navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
 }
-@media screen and (min-width: 26.25em) { /*420/16=26.25*/
+@media screen and (min-width: 420px) { /*420/16=26.25*/
   #home-footer {
     width: 48vw;
     float: right;
@@ -85,15 +85,15 @@ p {
     float: right;
   }
 }
-@media screen and (min-width: 43.75em) {/*700/16=43.75*/
+@media screen and (min-width: 700px) {/*700/16=43.75*/
   #creations {
     display: grid;
-    grid-gap: 1em; /*16/16=1*/
+    grid-gap: 16px; /*16/16=1*/
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
   h1 {
-    font-size: 2em; /*32/16=2*/
-    line-height: 1em; /*32/32=1*/
+    font-size: 32px; /*32/16=2*/
+    line-height: 32px; /*32/32=1*/
   }
 }
