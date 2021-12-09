@@ -71,7 +71,7 @@ p {
     justify-content: space-evenly;
   }
 }*/
-#home-footer {
+/*#home-footer {
     width: 48vw;
     float: right;
   }
@@ -83,9 +83,26 @@ p {
     width: 48vw;
     float: right;
   }
-}
+}*/
 @media screen and (min-width: 700px) {/*700/16=43.75*/
-
+  .homepage {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "b a"
+      "b c"
+  }
+  #introduction {
+    grid-area: a;
+  }
+  .kevin-aguilar {
+    grid-area: b;
+  }
+  #home-footer {
+    grid-area: c;
+  }
 
   #creations {
     display: grid;
