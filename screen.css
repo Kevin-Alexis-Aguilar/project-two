@@ -17,6 +17,9 @@ html {
 section {
   margin-bottom: 8px; /*8/16=0.5*/
 }
+a {
+  text-decoration: none;
+}
 article {
   margin-bottom: 8px;
 }
@@ -61,7 +64,6 @@ h3 {
   line-height: 0;
   margin-bottom: 12px; /* 12/24 = 0.5*/
   padding: 24px; /* 24/24 = 1*/
-  text-decoration: none;
 }
 
 p {
