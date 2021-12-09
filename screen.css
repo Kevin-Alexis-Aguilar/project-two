@@ -36,10 +36,6 @@ figcaption {
   width: 100%;
 }
 
-h1,
-h2 {
-  font-weight: bold;
-}
 h2 {
   text-decoration: underline;
 }
@@ -48,6 +44,7 @@ h2,
 h3 {
   margin-top: 8px; /*8/16=0.5*/
   margin-bottom: 8px; /*8/16=0.5*/
+  font-weight: bold;
 }
 
 #footer p {
