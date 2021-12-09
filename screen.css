@@ -53,7 +53,7 @@ h3 {
   background-color: #333;
   color: white;
   display: block;
-  font-size: 1.33333333333em; /* 24/16 = 1.33333333333*/
+  font-size: 24px; /* 24/16 = 1.33333333333*/
   line-height: 0;
   margin-bottom: 12px; /* 12/24 = 0.5*/
   padding: 24px; /* 24/24 = 1*/
@@ -65,14 +65,13 @@ p {
 }
 
 @media screen and (min-width: 300px) { /* 300/16 = 18.75*/
-  #navigation {
+  /*#navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
-}
-@media screen and (min-width: 420px) { /*420/16=26.25*/
-  #home-footer {
+}*/
+#home-footer {
     width: 48vw;
     float: right;
   }
@@ -86,6 +85,8 @@ p {
   }
 }
 @media screen and (min-width: 700px) {/*700/16=43.75*/
+
+
   #creations {
     display: grid;
     grid-gap: 16px; /*16/16=1*/
