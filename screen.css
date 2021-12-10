@@ -73,6 +73,9 @@ p {
 }
 
 @media screen and (min-width: 400px) { /* 300/16 = 18.75*/
+  html {
+    margin: 16px;
+  }
   figcaption {
     bottom: 0;
     position: absolute;
