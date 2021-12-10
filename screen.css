@@ -72,23 +72,23 @@ p {
   margin-bottom: 0.5em; /*8/16=0.5*/
 }
 
-@media screen and (min-width: 400px) { /* 300/16 = 18.75*/
+@media screen and (min-width: 25em) { /* 400/16 = 25*/
   html {
-    margin: 16px;
+    margin: 1em;/*16/16=1*/
   }
   figcaption {
     bottom: 0;
     position: absolute;
   }
   h1 {
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 1.5em;/*24/16=1.5em*/
+    line-height: 1.08333333333em;/*26/24=1.08333333333*/
   }
 }
-@media screen and (min-width: 700px) {/*700/16=43.75*/
+@media screen and (min-width: 43.75em) {/*700/16=43.75*/
   .homepage {
     display: grid;
-    grid-gap: 16px;
+    grid-gap: 1em;/*16/16=1*/
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -107,12 +107,12 @@ p {
 
   #creations {
     display: grid;
-    grid-gap: 16px; /*16/16=1*/
+    grid-gap: 1em; /*16/16=1*/
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
   h1 {
-    font-size: 32px; /*32/16=2*/
-    line-height: 32px; /*32/32=1*/
+    font-size: 2em; /*32/16=2*/
+    line-height: 1em; /*32/32=1*/
   }
 }
