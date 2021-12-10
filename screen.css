@@ -24,6 +24,7 @@ article {
   margin-bottom: 8px;
 }
 figure {
+  display: block;
   position: relative;
 }
 img {
@@ -31,9 +32,13 @@ img {
   max-width: 100%;
 }
 figcaption {
+  background-color: #181818;
+  color: #DCDCDC;
+  display: block;
   margin-bottom: 8px; /*8/16=0.5*/
+  padding: 4px;
   position: relative;
-  width: 100%;
+  max-width: 100%;
 }
 
 h2 {
