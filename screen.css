@@ -56,13 +56,12 @@ h3 {
   display: block;
   margin-top: 16px; /* 32/16 = 2*/
 }
-
 #navigation a {
   background-color: #333;
   color: white;
   display: block;
-  font-family: Helvetica, serif, sans-serif;
-  font-size: 20px; /* 24/16 = 1.33333333333*/
+  font-size: 15.4px;
+  font-family: Verdana, Arial, sans-serif;
   line-height: 0;
   margin-bottom: 12px; /* 12/24 = 0.5*/
   padding: 24px; /* 24/24 = 1*/
