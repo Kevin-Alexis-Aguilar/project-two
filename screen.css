@@ -14,14 +14,12 @@ html {
   line-height: 18px; /*20/16=1.25*/
   margin: 8px; /*4/16=0.25*/
 }
+article,
 section {
   margin-bottom: 8px; /*8/16=0.5*/
 }
 a {
   text-decoration: none;
-}
-article {
-  margin-bottom: 8px;
 }
 #content li {
   margin-bottom: 6px;
